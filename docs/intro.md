@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 1. Purpose
 
-This specification defines the standard format for responses sent by external AI agents to the Learning Design System (LDS).
+This specification defines the standard format for responses sent by external AI agents to the Learning Design Studio (LDS).
 
 Goals:
 

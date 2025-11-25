@@ -1,0 +1,45 @@
+---
+sidebar_position: 3
+---
+
+# 5.3 modify_element
+
+Explanation:
+
+- Updates multiple fields of an existing LDS element in a single operation.
+- Commonly used for bulk updates or when importing structured AI-generated data.
+
+Basic JSON Structure:
+
+```json
+{
+  "action_type": "modify_element",
+  "target": {
+    "context": "CourseInfo | DP | PA | ILO | CC | Task | Lesson",
+    "context_object_id": "integer"
+  },
+  "payload": {
+    "fields": {
+      /* Fields allowed for this context — see Appendix 7.1 */
+    }
+  }
+}
+```
+
+Example (CourseInfo context):
+
+```json
+{
+  "action_type": "modify_element",
+  "target": { "context": "CourseInfo", "context_object_id": 10 },
+  "payload": {
+    "fields": {
+      "topic": "AI-suggested — Introduction to Artificial Intelligence",
+      "description": "Foundational course on AI concepts and applications.",
+      "subjects": ["Science Education", "Technology Education"],
+      "grade_levels": ["S5"],
+      "learning_time": "40"
+    }
+  }
+}
+```
