@@ -30,9 +30,9 @@ The **show_navigation** action displays a hierarchical, multi-level navigation t
 
 - label _(string)_ — Text shown in the navigation UI.
 - id _(string)_ — Internal LDS identifier for the node.
-- clickable*buttons *(optional array)\_ — Each button has:
-  - label _(string)_ — Text shown on the button.
-  - action _(object)_ — Any valid LDS action object.
+- clickable_buttons _(optional array)_ — Each button has:
+    - label _(string)_ — Text shown on the button.
+    - action _(object)_ — Any valid LDS action object.
 - children _(optional array)_ — An array of sub-nodes, each following the same structure.
 
 Example (Multi-Level Navigation with Text + Buttons)
