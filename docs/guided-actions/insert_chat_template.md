@@ -8,18 +8,17 @@ Basic JSON Structure
 
 ```json
 {
-
-"action_type": "insert_chat_template",
-"payload": {
-"template_id": "string",
-"template_name": "string",
-"template_text": "string",
-"placeholders": \[
-{ "key": "any_string_1" },
-{ "key": "any_string_2" },
-{ "key": "another_placeholder" }
-\]
-}
+  "action_type": "insert_chat_template",
+  "payload": {
+    "template_id": "string",
+    "template_name": "string",
+    "template_text": "string",
+    "placeholders": [
+      { "key": "any_string_1" },
+      { "key": "any_string_2" },
+      { "key": "another_placeholder" }
+    ]
+  }
 }
 ```
 
@@ -34,16 +33,16 @@ Example
 
 ```json
 {
-"action_type": "insert_chat_template",
-"payload": {
-"template_id": "ilo_statement_001",
-"template_name": "Generate ILO Statement",
-"template_text": "Course name: \[course_name\], Competency: \[competency\], Extra field: \[custom_tag\]",
-"placeholders": \[
-{ "key": "course_name" },
-{ "key": "competency" },
-{ "key": "custom_tag" }
-\]
-}
+  "action_type": "insert_chat_template",
+  "payload": {
+    "template_id": "ilo_statement_001",
+    "template_name": "Generate ILO Statement",
+    "template_text": "Course name: [course_name], Competency: [competency], Extra field: [custom_tag]",
+    "placeholders": [
+      { "key": "course_name" },
+      { "key": "competency" },
+      { "key": "custom_tag" }
+    ]
+  }
 }
 ```
