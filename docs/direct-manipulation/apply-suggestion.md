@@ -15,7 +15,7 @@ Basic JSON Structure:
 {
   "action_type": "apply_suggestion",
   "target": {
-    "context": "CourseInfo | DP | PA | ILO | CC | Task | Lesson",
+    "context": "CourseInfo | ILO | DP | PA | CC | Task | Lesson",
     "context_object_id": "integer"
   },
   "payload": {

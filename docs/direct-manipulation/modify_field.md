@@ -1,13 +1,13 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# 5.4 modify_field
+# 5.3 modify_field
 
 Explanation:
 
-- Updates a single field of an LDS element.
-- Used for quick inline edits suggested by the AI or manually entered by the user.
+- Updates multiple fields of an existing LDS element in a single operation.
+- Commonly used for bulk updates or when importing structured AI-generated data.
 
 Basic JSON Structure:
 
@@ -15,25 +15,31 @@ Basic JSON Structure:
 {
   "action_type": "modify_field",
   "target": {
-    "context": "CourseInfo | DP | PA | ILO | CC | Task | Lesson",
+    "context": "CourseInfo | ILO | DP | PA | CC | Task | Lesson",
     "context_object_id": "integer"
   },
   "payload": {
-    "field_name": "string",
-    "new_value": "any"
+    "fields": {
+      /* Fields allowed for this context — see Appendix 7.1 */
+    }
   }
 }
 ```
 
-Example (PA context):
+Example (CourseInfo context):
 
 ```json
 {
   "action_type": "modify_field",
-  "target": { "context": "PA", "context_object_id": 55 },
+  "target": { "context": "CourseInfo", "context_object_id": 10 },
   "payload": {
-    "field_name": "description",
-    "new_value": "Inquiry-based learning encouraging exploration and problem-solving."
+    "fields": {
+      "topic": "AI-suggested — Introduction to Artificial Intelligence",
+      "description": "Foundational course on AI concepts and applications.",
+      "subjects": ["Science Education", "Technology Education"],
+      "grade_levels": ["S5"],
+      "learning_time": "40"
+    }
   }
 }
 ```

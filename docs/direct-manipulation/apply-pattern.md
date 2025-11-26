@@ -14,7 +14,7 @@ Basic JSON Structure:
 ```json
 {
   "action_type": "apply_pattern",
-  "target": { "context": "CourseInfo | DP | PA | ILO | CC | Task | Lesson" },
+  "target": { "context": "CourseInfo | ILO | DP | PA | CC | Task | Lesson" },
   "payload": {
     "pattern_object": {
       /* Fields vary by context — see Appendix 7.1 */

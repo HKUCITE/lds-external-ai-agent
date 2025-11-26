@@ -2,13 +2,13 @@
 sidebar_position: 3
 ---
 
-# 4.3 redirect_user
+# 4.3 guide_user
 
 Basic JSON Structure
 
 ```json
 {
-  "action_type": "redirect_user",
+  "action_type": "guide_user",
   "payload": {
     "actions": [
       {
@@ -27,7 +27,7 @@ Example
 
 ```json
 {
-  "action_type": "redirect_user",
+  "action_type": "guide_user",
   "payload": {
     "actions": [
       {

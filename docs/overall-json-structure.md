@@ -13,8 +13,8 @@ sidebar_position: 2
     {
       "action_type": "string",
       "target": {
-        "context": "CourseInfo | DP | PA | ILO | CC | Task | Lesson",
-        "context_object_id": 0
+        "context": "CourseInfo | ILO | DP | PA | CC | Task | Lesson",
+        "context_object_id": "integer"
       },
       "payload": {},
       "ui": {

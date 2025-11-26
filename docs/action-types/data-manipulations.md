@@ -6,5 +6,4 @@ sidebar_position: 2
 
 - apply_pattern – Insert a pattern immediately.
 - apply_suggestion – Apply a suggestion immediately.
-- modify_element – Update multiple fields.
-- modify_field – Update a single field.
+- modify_field – Update multiple fields.

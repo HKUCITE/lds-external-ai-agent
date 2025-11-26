@@ -2,13 +2,13 @@
 sidebar_position: 5
 ---
 
-# 4.5 show_choices
+# 4.5 show_choice
 
 Basic JSON Structure
 
 ```json
 {
-  "action_type": "show_choices",
+  "action_type": "show_choice",
   "payload": {
     "question": "string",
     "options": [
@@ -27,7 +27,7 @@ Example
 
 ```json
 {
-  "action_type": "show_choices",
+  "action_type": "show_choice",
   "payload": {
     "question": "Which instructional strategy would you prefer?",
     "options": [

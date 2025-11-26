@@ -9,7 +9,7 @@ Basic JSON Structure
 ```json
 {
   "action_type": "show_pattern",
-  "target": { "context": "CourseInfo | DP | PA | ILO | CC | Task | Lesson" },
+  "target": { "context": "CourseInfo | ILO | DP | PA | CC | Task | Lesson" },
   "payload": {
     "patterns": [
       {
