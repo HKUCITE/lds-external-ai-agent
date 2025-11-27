@@ -1,0 +1,228 @@
+{
+  "id": 1773,
+  "name": "Through brainstorming to identify problem for goal-setting",
+  "intended_learning_outcomes": [
+    {
+      "id": 2991,
+      "statement": "Apply design thinking process - Empathize with users",
+      "type": 2,
+      "bt_level": 3,
+      "subjects": [5],
+      "sequence": null
+    },
+    {
+      "id": 2992,
+      "statement": "Apply design thinking process - Define design problems",
+      "type": 2,
+      "bt_level": 3,
+      "subjects": [5],
+      "sequence": null
+    },
+    {
+      "id": 2997,
+      "statement": "Apply self-directed learning strategies (Goal setting) in the learning process",
+      "type": 3,
+      "bt_level": 3,
+      "subjects": [],
+      "sequence": null
+    }
+  ],
+  "disciplinary_practice_steps": [
+    {
+      "id": 2591,
+      "name": "Identify problem",
+      "sequence": 1
+    }
+  ],
+  "pedagogical_approach_foci": [
+    {
+      "id": 1901,
+      "name": "Goal-setting",
+      "sequence": 1
+    }
+  ],
+  "learning_tasks": [
+    {
+      "id": 4590,
+      "name": "Students discuss the needs of users",
+      "description": "What is the need?",
+      "type": 2,
+      "delivery_mode": 2,
+      "stage": 2,
+      "social_organization": 2,
+      "duration": 15,
+      "feedback_providers": [1, 2],
+      "intended_learning_outcomes": [2991],
+      "elearning_tools": [
+        {
+          "id": 1934,
+          "type": 2,
+          "type_other": null,
+          "name": "Forum",
+          "description": "This is a padlet",
+          "url": "https://padlet.com",
+          "file": null
+        },
+        {
+          "id": 1955,
+          "type": 3,
+          "type_other": null,
+          "name": "Learning Material",
+          "description": "This is the file",
+          "url": null,
+          "file": {
+            "id": 464,
+            "ref_id": 1955,
+            "ref_type": "task_elearning_tools",
+            "name": "image.png",
+            "file_path": "task_elearning_tools/1955",
+            "extension": "png",
+            "sequence": null,
+            "created_by": 1,
+            "updated_by": 1,
+            "created_at": "2025-11-27T04:28:19.000000Z",
+            "updated_at": "2025-11-27T04:28:19.000000Z"
+          }
+        }
+      ],
+      "resources": [
+        {
+          "id": 1137,
+          "type": 2,
+          "type_other": null,
+          "name": "Practice execise (e.g. worksheet, workbook)",
+          "description": "worksheet",
+          "url": null,
+          "file": {
+            "id": 465,
+            "ref_id": 1137,
+            "ref_type": "task_resources",
+            "name": "test excel.xlsx",
+            "file_path": "task_resources/1137",
+            "extension": "xlsx",
+            "sequence": null,
+            "created_by": 1,
+            "updated_by": 1,
+            "created_at": "2025-11-27T06:01:20.000000Z",
+            "updated_at": "2025-11-27T06:01:20.000000Z"
+          }
+        },
+        {
+          "id": 1148,
+          "type": 8,
+          "type_other": null,
+          "name": "A website",
+          "description": "this gives a website",
+          "url": "https://www.hku.hk",
+          "file": null
+        }
+      ],
+      "sequence": 1
+    },
+    {
+      "id": 4591,
+      "name": "Students work on indentifying the most prominent problem needed to be addressed.",
+      "description": null,
+      "type": 3,
+      "delivery_mode": 2,
+      "stage": null,
+      "social_organization": 2,
+      "duration": 5,
+      "feedback_providers": [],
+      "intended_learning_outcomes": [],
+      "elearning_tools": [
+        {
+          "id": 1935,
+          "type": 2,
+          "type_other": null,
+          "name": "Forum",
+          "description": null,
+          "url": null,
+          "file": null
+        },
+        {
+          "id": 1936,
+          "type": 10,
+          "type_other": null,
+          "name": "Wiki",
+          "description": null,
+          "url": null,
+          "file": null
+        },
+        {
+          "id": 1937,
+          "type": 8,
+          "type_other": null,
+          "name": "URL",
+          "description": null,
+          "url": null,
+          "file": null
+        }
+      ],
+      "resources": [
+        {
+          "id": 1138,
+          "type": 2,
+          "type_other": null,
+          "name": "Practice execise (e.g. worksheet, workbook)",
+          "description": null,
+          "url": null,
+          "file": null
+        }
+      ],
+      "sequence": 2
+    },
+    {
+      "id": 4592,
+      "name": "Students present their findings on user needs to the whole class",
+      "description": null,
+      "type": 10,
+      "delivery_mode": 2,
+      "stage": null,
+      "social_organization": 1,
+      "duration": 5,
+      "feedback_providers": [],
+      "intended_learning_outcomes": [],
+      "elearning_tools": [
+        {
+          "id": 1938,
+          "type": 2,
+          "type_other": null,
+          "name": "Forum",
+          "description": null,
+          "url": null,
+          "file": null
+        },
+        {
+          "id": 1939,
+          "type": 10,
+          "type_other": null,
+          "name": "Wiki",
+          "description": null,
+          "url": null,
+          "file": null
+        },
+        {
+          "id": 1940,
+          "type": 10,
+          "type_other": null,
+          "name": "Wiki",
+          "description": null,
+          "url": null,
+          "file": null
+        },
+        {
+          "id": 1941,
+          "type": 8,
+          "type_other": null,
+          "name": "URL",
+          "description": null,
+          "url": null,
+          "file": null
+        }
+      ],
+      "resources": [],
+      "sequence": 3
+    }
+  ]
+}

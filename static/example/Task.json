@@ -1,0 +1,77 @@
+{
+  "id": 4590,
+  "name": "Students discuss the needs of users",
+  "description": "What is the need?",
+  "type": 2,
+  "delivery_mode": 2,
+  "stage": 2,
+  "social_organization": 2,
+  "duration": 15,
+  "feedback_providers": [1, 2],
+  "intended_learning_outcomes": [2991],
+  "elearning_tools": [
+    {
+      "id": 1934,
+      "type": 2,
+      "type_other": null,
+      "name": "Forum",
+      "description": "This is a padlet",
+      "url": "https://padlet.com",
+      "file": null
+    },
+    {
+      "id": 1955,
+      "type": 3,
+      "type_other": null,
+      "name": "Learning Material",
+      "description": "This is the file",
+      "url": null,
+      "file": {
+        "id": 464,
+        "ref_id": 1955,
+        "ref_type": "task_elearning_tools",
+        "name": "image.png",
+        "file_path": "task_elearning_tools/1955",
+        "extension": "png",
+        "sequence": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2025-11-27T04:28:19.000000Z",
+        "updated_at": "2025-11-27T04:28:19.000000Z"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "id": 1137,
+      "type": 2,
+      "type_other": null,
+      "name": "Practice execise (e.g. worksheet, workbook)",
+      "description": "worksheet",
+      "url": null,
+      "file": {
+        "id": 465,
+        "ref_id": 1137,
+        "ref_type": "task_resources",
+        "name": "test excel.xlsx",
+        "file_path": "task_resources/1137",
+        "extension": "xlsx",
+        "sequence": null,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2025-11-27T06:01:20.000000Z",
+        "updated_at": "2025-11-27T06:01:20.000000Z"
+      }
+    },
+    {
+      "id": 1148,
+      "type": 8,
+      "type_other": null,
+      "name": "A website",
+      "description": "this gives a website",
+      "url": "https://www.hku.hk",
+      "file": null
+    }
+  ],
+  "sequence": null
+}

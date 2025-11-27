@@ -1,0 +1,9 @@
+{
+  "topic": "Engineer (Engineering Design + Self-directed Learning)",
+  "description": "SDL",
+  "grade_level": 10,
+  "subjects": [4, 5],
+  "learning_time": 180,
+  "lesson_session_count": 6,
+  "per_lesson_session_time": 30
+}
