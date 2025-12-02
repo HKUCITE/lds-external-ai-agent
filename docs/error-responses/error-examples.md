@@ -59,34 +59,36 @@ Each example shows **invalid request JSON** (input) followed by **error response
 
 **Invalid Request JSON:**
 
-````json
+```json
 {
-	"actions": [
-		{
-			"target": { "context": "CourseInfo", "context_object_id": 123 },
-			"ui": {},
-			"payload": {}
-		}
-	]
+  "actions": [
+    {
+      "target": { "context": "CourseInfo", "context_object_id": 123 },
+      "ui": {},
+      "payload": {}
+    }
+  ]
 }
+```
 
 **Returned Error JSON:**
 
 ```json
 {
-	"status": "error",
-	"errors": [
-		{
-			"code": "MISSING_REQUIRED_UI_FIELD",
-			"message": "Mandatory field 'presentation' is missing in ui object.",
-			"location": "actions[0].ui.presentation",
-			"expected_format": { "type": "string", "allowed_values": ["popup","sidebar","tooltip","highlight","inline"] }
-		}
-	]
+  "status": "error",
+  "errors": [
+    {
+      "code": "MISSING_REQUIRED_UI_FIELD",
+      "message": "Mandatory field 'presentation' is missing in ui object.",
+      "location": "actions[0].ui.presentation",
+      "expected_format": {
+        "type": "string",
+        "allowed_values": ["popup", "sidebar", "tooltip", "highlight", "inline"]
+      }
+    }
+  ]
 }
-````
-
-````
+```
 
 #### **Example 3 — MISSING_REQUIRED_PAYLOAD_FIELD**
 
@@ -94,15 +96,15 @@ Each example shows **invalid request JSON** (input) followed by **error response
 
 ```json
 {
-	"actions": [
-		{
-			"target": { "context": "ILO", "context_object_id": 456 },
-			"ui": { "representation": "sidebar", "presentation": "sidebar" },
-			"payload": { "pattern_object": {} }
-		}
-	]
+  "actions": [
+    {
+      "target": { "context": "ILO", "context_object_id": 456 },
+      "ui": { "representation": "sidebar", "presentation": "sidebar" },
+      "payload": { "pattern_object": {} }
+    }
+  ]
 }
-````
+```
 
 **Returned Error JSON:**
 
