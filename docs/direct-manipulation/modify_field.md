@@ -36,8 +36,8 @@ Example (CourseInfo context):
     "fields": {
       "topic": "AI-suggested — Introduction to Artificial Intelligence",
       "description": "Foundational course on AI concepts and applications.",
-      "subjects": ["Science Education", "Technology Education"],
-      "grade_levels": ["S5"],
+      "grade_levels": 12,
+      "subjects": [4, 5],
       "learning_time": "40"
     }
   }

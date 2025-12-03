@@ -42,11 +42,26 @@ Example
                 "name": "Self-Directed Learning",
                 "description": "Self-Directed Learning (SDL) is a popular educational method that encourages learning around real-world problems and empowers students. It uses a five-step structure, akin to problem-solving, comprising goal setting, self planning, self-monitoring, self-evaluation, and revision.",
                 "foci": [
-                  "Goal-setting",
-                  "Self-planning",
-                  "Self-monitoring",
-                  "Self-evaluation",
-                  "Revision"
+                  {
+                    "name": "Goal-setting",
+                    "sequence": 1
+                  },
+                  {
+                    "name": "Self-planning",
+                    "sequence": 2
+                  },
+                  {
+                    "name": "Self-monitoring",
+                    "sequence": 3
+                  },
+                  {
+                    "name": "Self-evaluation",
+                    "sequence": 4
+                  },
+                  {
+                    "name": "Revision",
+                    "sequence": 5
+                  }
                 ]
               }
             ]

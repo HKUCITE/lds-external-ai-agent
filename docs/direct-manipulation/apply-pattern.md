@@ -31,10 +31,10 @@ Example (ILO context):
   "target": { "context": "ILO" },
   "payload": {
     "pattern_object": {
-      "type": [{ "id": 2, "name": "Disciplinary Skills" }],
       "statement": "AI-suggested — Apply design thinking process: Empathize with users",
-      "bt_level": { "id": 3, "name": "Apply" },
-      "subjects": [{ "id": 5, "name": "Technology Education" }]
+      "type": 2,
+      "bt_level": 3,
+      "subjects": [5]
     }
   }
 }

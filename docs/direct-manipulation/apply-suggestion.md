@@ -36,7 +36,7 @@ Example (Task context):
     "changes": {
       "name": "AI-suggested — Peer Review Activity",
       "description": "Students review each other’s drafts and give constructive feedback.",
-      "linked_ilos": [45, 46],
+      "intended_learning_outcomes": [45, 46],
       "duration": "30"
     }
   }

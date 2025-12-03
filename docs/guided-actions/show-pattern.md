@@ -33,9 +33,9 @@ Example
     "patterns": [
       {
         "statement": "Apply design thinking process - Empathize with users",
-        "bt_level": { "id": 3, "name": "Apply" },
-        "type": { "id": 2, "name": "Disciplinary Skills" },
-        "subject": [{ "id": 5, "name": "Technology Education" }]
+        "subjects": [5],
+        "bt_level": 3,
+        "type": 2
       }
     ]
   },
