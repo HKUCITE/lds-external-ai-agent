@@ -8,7 +8,24 @@
   "social_organization": 2,
   "duration": 15,
   "feedback_providers": [1, 2],
-  "intended_learning_outcomes": [2991],
+  "intended_learning_outcomes": [
+    {
+      "id": 2991,
+      "statement": "Apply design thinking process - Empathize with users",
+      "type": 2,
+      "bt_level": 3,
+      "subjects": [5],
+      "sequence": null
+    },
+    {
+      "id": 2997,
+      "statement": "Apply self-directed learning strategies (Goal setting) in the learning process",
+      "type": 3,
+      "bt_level": 3,
+      "subjects": [],
+      "sequence": null
+    }
+  ],
   "elearning_tools": [
     {
       "id": 1934,
