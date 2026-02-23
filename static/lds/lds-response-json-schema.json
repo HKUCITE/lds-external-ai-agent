@@ -1,0 +1,285 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/lds-external-ai-agent-response.schema.json",
+  "title": "LDS External AI Agent Response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "chat_message_reply": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": { "type": "string" }
+      },
+      "required": ["text"]
+    },
+    "actions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/action" },
+      "minItems": 1
+    }
+  },
+  "required": [],
+  "$defs": {
+    "contextEnum": {
+      "type": "string",
+      "enum": [
+        "CourseInfo", "DP", "PA", "ILO", "CC", "Task", "Lesson"
+      ]
+    },
+    "presentationEnum": {
+      "type": "string",
+      "enum": ["popup", "sidebar", "tooltip", "highlight", "inline"]
+    },
+    "highlightTargetEnum": {
+      "type": "string",
+      "enum": [
+        "#save-button", "#cancel-button", "#add-button", "#edit-button",
+        "#delete-button", "#patterns-button", "#chat-input", "#navigation-menu",
+        "#info-panel", "#assistant-panel", "#my-library-button", "#groups-button",
+        "#notifications-button", "#language-switcher", "#menu-button-course-overview",
+        "#menu-button-designer-dashboard", "#menu-button-ilap-converter",
+        "#expand-nav-bar", "#collapse-nav-bar", "#expand-right-panel", "#collapse-right-panel",
+        "#maximize-info-panel", "#minimize-info-panel", "#maximize-assistant-panel", "#minimize-assistant-panel",
+        "#DP.copy-pattern", "#DP.view-pattern", "#PA.copy-pattern", "#PA.view-pattern",
+        "#ILO.copy-pattern", "#ILO.view-pattern", "#CC.expand-all", "#CC.collapse-all",
+        "#CC.expand", "#CC.collapse", "#CC.show-linked-ilo", "#CC.show-dp", "#CC.show-pa", "#CC.show-tasks",
+        "#Task.move-task", "#Task.copy-task", "#Task.show-linked-ilo", "#Task.add-elearning-tool",
+        "#Task.add-resource", "#Task.link-ilos", "#Task.unlink-ilo", "#Task.save-add-another",
+        "#Lesson.auto-arrange"
+      ],
+      "pattern": "^#(CourseInfo|DP|PA|ILO|CC|Task|Lesson)\\.[A-Za-z0-9_-]+$"
+    },
+    "ui": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "presentation": { "$ref": "#/$defs/presentationEnum" },
+        "highlight_target": { "$ref": "#/$defs/highlightTargetEnum" }
+      },
+      "required": ["presentation"]
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "context": { "$ref": "#/$defs/contextEnum" },
+        "context_object_id": { "type": "integer" }
+      },
+      "required": ["context"]
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "action_type": {
+          "type": "string",
+          "enum": [
+            "show_pattern", "show_suggestion", "redirect_user", "insert_chat_template",
+            "show_choices", "apply_pattern", "apply_suggestion", "modify_element",
+            "modify_field", "show_navigation"
+          ]
+        },
+        "target": { "$ref": "#/$defs/target" },
+        "payload": { "type": "object" },
+        "ui": { "$ref": "#/$defs/ui" }
+      },
+      "required": ["action_type", "payload"],
+      "allOf": [
+        { "$ref": "#/$defs/actionTypeSchemas" }
+      ]
+    },
+    "actionTypeSchemas": {
+      "oneOf": [
+        {
+          "properties": {
+            "action_type": { "const": "show_pattern" },
+            "target": { "$ref": "#/$defs/target" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "patterns": { "type": "array", "items": { "type": "object" } }
+              },
+              "required": ["patterns"]
+            }
+          },
+          "required": ["target", "payload"]
+        },
+        {
+          "properties": {
+            "action_type": { "const": "show_suggestion" },
+            "target": { "$ref": "#/$defs/target", "required": ["context", "context_object_id"] },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "suggestions": { "type": "array", "items": { "type": "object" } }
+              },
+              "required": ["suggestions"]
+            }
+          },
+          "required": ["target", "payload"]
+        },
+        {
+          "properties": {
+            "action_type": { "const": "redirect_user" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "actions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "message": { "type": "string" },
+                      "presentation": { "$ref": "#/$defs/presentationEnum" },
+                      "highlight_target": { "$ref": "#/$defs/highlightTargetEnum" }
+                    },
+                    "required": ["message", "presentation", "highlight_target"]
+                  }
+                }
+              },
+              "required": ["actions"]
+            }
+          }
+        },
+        {
+          "properties": {
+            "action_type": { "const": "insert_chat_template" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "template_id": { "type": "string" },
+                "template_name": { "type": "string" },
+                "template_text": { "type": "string" },
+                "placeholders": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": { "key": { "type": "string" } },
+                    "required": ["key"]
+                  }
+                }
+              },
+              "required": ["template_id", "template_name", "template_text", "placeholders"]
+            }
+          }
+        },
+        {
+          "properties": {
+            "action_type": { "const": "show_choices" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "question": { "type": "string" },
+                "options": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "label": { "type": "string" },
+                      "next_action": { "$ref": "#/$defs/action" }
+                    },
+                    "required": ["label", "next_action"]
+                  }
+                }
+              },
+              "required": ["question", "options"]
+            }
+          }
+        },
+        {
+          "properties": {
+            "action_type": { "const": "apply_pattern" },
+            "target": { "$ref": "#/$defs/target" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "pattern_object": { "type": "object" }
+              },
+              "required": ["pattern_object"]
+            }
+          },
+          "required": ["target", "payload"]
+        },
+        {
+          "properties": {
+            "action_type": { "const": "apply_suggestion" },
+            "target": { "$ref": "#/$defs/target", "required": ["context", "context_object_id"] },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "changes": { "type": "object" }
+              },
+              "required": ["changes"]
+            }
+          }
+        },
+        {
+          "properties": {
+            "action_type": { "const": "modify_element" },
+            "target": { "$ref": "#/$defs/target", "required": ["context", "context_object_id"] },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "fields": { "type": "object" }
+              },
+              "required": ["fields"]
+            }
+          }
+        },
+        {
+          "properties": {
+            "action_type": { "const": "modify_field" },
+            "target": { "$ref": "#/$defs/target", "required": ["context", "context_object_id"] },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "field_name": { "type": "string" },
+                "new_value": {}
+              },
+              "required": ["field_name", "new_value"]
+            }
+          }
+        },
+        {
+          "properties": {
+            "action_type": { "const": "show_navigation" },
+            "payload": {
+              "type": "object",
+              "properties": {
+                "navigation_tree": {
+                  "type": "array",
+                  "items": { "$ref": "#/$defs/navigationNode" }
+                }
+              },
+              "required": ["navigation_tree"]
+            }
+          }
+        }
+      ]
+    },
+    "navigationNode": {
+      "type": "object",
+      "properties": {
+        "label": { "type": "string" },
+        "id": { "type": "string" },
+        "clickable_buttons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": { "type": "string" },
+              "action": { "$ref": "#/$defs/action" }
+            },
+            "required": ["label", "action"]
+          }
+        },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/navigationNode" }
+        }
+      },
+      "required": ["label", "id"]
+    }
+  }
+}
