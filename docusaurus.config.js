@@ -48,7 +48,7 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-           sidebarCollapsed: false,
+          sidebarCollapsed: false,
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -56,6 +56,7 @@ const config = {
       }),
     ],
   ],
+  plugins: ["./plugins/docusaurus-plugin-inject-schema-id"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
