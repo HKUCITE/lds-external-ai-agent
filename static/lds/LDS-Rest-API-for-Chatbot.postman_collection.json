@@ -40,11 +40,6 @@
                       "key": "per_page",
                       "value": "3",
                       "type": "text"
-                    },
-                    {
-                      "key": "course_ids[]",
-                      "value": "173",
-                      "type": "text"
                     }
                   ]
                 },
@@ -90,11 +85,6 @@
                     {
                       "key": "per_page",
                       "value": "3",
-                      "type": "text"
-                    },
-                    {
-                      "key": "course_ids[]",
-                      "value": "173",
                       "type": "text"
                     }
                   ]
@@ -142,11 +132,6 @@
                       "key": "per_page",
                       "value": "3",
                       "type": "text"
-                    },
-                    {
-                      "key": "course_ids[]",
-                      "value": "173",
-                      "type": "text"
                     }
                   ]
                 },
@@ -192,11 +177,6 @@
                     {
                       "key": "per_page",
                       "value": "3",
-                      "type": "text"
-                    },
-                    {
-                      "key": "course_ids[]",
-                      "value": "173",
                       "type": "text"
                     }
                   ]
@@ -1248,6 +1228,45 @@
               "response": []
             }
           ]
+        },
+        {
+          "name": "Options Aggregate",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"requests\": [\r\n        {\r\n            \"path\": \"/courses/grade-levels-simplified\",\r\n            \"params\": {}\r\n        },\r\n        {\r\n            \"path\": \"/learning-tasks/types-simplified\",\r\n            \"params\": {}\r\n        },\r\n        {\r\n            \"path\": \"/intended-learning-outcomes/bloom-taxonomy-verbs-simplified\",\r\n            \"params\": {}\r\n        }\r\n    ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{laravel_host}}/api/chatbot/options/aggregate",
+              "host": [
+                "{{laravel_host}}"
+              ],
+              "path": [
+                "api",
+                "chatbot",
+                "options",
+                "aggregate"
+              ]
+            }
+          },
+          "response": []
         }
       ],
       "description": "List dynamic options selectable in users in the [LDS](https://lds.cite.hku.hk/)"
