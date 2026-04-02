@@ -19,6 +19,8 @@ Client id and client secrets are required to call the APIs. Please obtain these 
 Please download this Postman collection in json file and import it into your Postman:
 [LDS Rest API for Chatbot.postman_collection.json](/lds/LDS-Rest-API-for-Chatbot.postman_collection.json)
 
+Note: The latest updated APIs are available in https://lds-test.cite.hku.hk. The updates include simplified outputs in the request for Options (Those requests named with "Simplified"), the addition of the "Options Aggregate" endpoint to get multiple options in a single request, and simplfied outputs in the request for "Learning Design".
+
 Steps:
 
 1.  Download Postman: https://www.postman.com/downloads/

@@ -1266,7 +1266,40 @@
               ]
             }
           },
-          "response": []
+          "response": [
+            {
+              "name": "Options Aggregate",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"requests\": [\r\n        {\r\n            \"path\": \"/courses/grade-levels-simplified\",\r\n            \"params\": {}\r\n        },\r\n        {\r\n            \"path\": \"/learning-tasks/types-simplified\",\r\n            \"params\": {}\r\n        },\r\n        {\r\n            \"path\": \"/intended-learning-outcomes/bloom-taxonomy-verbs-simplified\",\r\n            \"params\": {}\r\n        }\r\n    ]\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{laravel_host}}/api/chatbot/options/aggregate",
+                  "host": [
+                    "{{laravel_host}}"
+                  ],
+                  "path": [
+                    "api",
+                    "chatbot",
+                    "options",
+                    "aggregate"
+                  ]
+                }
+              },
+              "_postman_previewlanguage": null,
+              "header": null,
+              "cookie": [],
+              "body": null
+            }
+          ]
         }
       ],
       "description": "List dynamic options selectable in users in the [LDS](https://lds.cite.hku.hk/)"
