@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 8.2 Predefined Error Codes
+# 7.2 Predefined Error Codes
 
 | Code                           | Meaning                                                          |
 | ------------------------------ | ---------------------------------------------------------------- |

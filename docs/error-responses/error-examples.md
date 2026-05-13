@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 8.3 Example Error Responses
+# 7.3 Example Error Responses
 
 Each example shows **invalid request JSON** (input) followed by **error response JSON** (output).
 

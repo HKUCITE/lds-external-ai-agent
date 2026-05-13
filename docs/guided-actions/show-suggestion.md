@@ -41,3 +41,7 @@ Example
   "ui": { "presentation": "sidebar" }
 }
 ```
+
+Screenshot
+
+![show_suggestion screenshot](/lds/actions/action-show_suggestion.png)

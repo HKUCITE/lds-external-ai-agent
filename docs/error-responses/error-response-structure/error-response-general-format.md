@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 8.1.1 General Format
+# 7.1.1 General Format
 
 All error responses must follow this strict JSON format:
 

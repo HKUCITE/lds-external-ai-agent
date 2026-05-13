@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# LDS Endpoints to retrieve LD & options
+# 9.3 LDS Endpoints to retrieve LD & options
 
 In the LDS External AI Agent Response Specification, the response data includes references to options
 and dynamic components in learning designs.

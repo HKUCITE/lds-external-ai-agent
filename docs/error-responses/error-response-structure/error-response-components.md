@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 8.1.2 Components of an Error Object
+# 7.1.2 Components of an Error Object
 
 ### **Code:**
 

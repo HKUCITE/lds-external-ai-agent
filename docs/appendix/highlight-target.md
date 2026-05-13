@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 7.2 Allowed highlight_target Values
+# 9.2 Allowed highlight_target Values
 
 Common highlight targets (valid for all contexts):
 
