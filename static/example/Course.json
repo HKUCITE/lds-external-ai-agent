@@ -1,0 +1,1745 @@
+{
+  "id": 424,
+  "course_pattern_id": 1,
+  "topic": "Engineer (Engineering Design + Self-directed Learning)",
+  "description": "SDL",
+  "grade_level_id": 10,
+  "grade_level_others": null,
+  "subjects": [4, 5],
+  "learning_time": 180,
+  "lesson_session_count": 6,
+  "per_lesson_session_time": 30,
+  "contributor_name": "HKU",
+  "contributor_affiliator": "CITE",
+  "section_arrangement": "lesson",
+  "intended_learning_outcomes": [
+    {
+      "id": 2991,
+      "statement": "Apply design thinking process - Empathize with users",
+      "type": 2,
+      "bloom_taxonomy_level": 3,
+      "subjects": [5],
+      "template_id": 1,
+      "sub_intended_learning_outcomes": [
+        {
+          "id": 2061,
+          "statement": "A sub ilo for testing",
+          "bloom_taxonomy_level": 1,
+          "sequence": 1
+        }
+      ],
+      "sequence": null
+    },
+    {
+      "id": 2992,
+      "statement": "Apply design thinking process - Define design problems",
+      "type": 2,
+      "bloom_taxonomy_level": 3,
+      "subjects": [5],
+      "template_id": 2,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 2993,
+      "statement": "Apply design thinking process - Ideate innovative solutions",
+      "type": 2,
+      "bloom_taxonomy_level": 3,
+      "subjects": [5],
+      "template_id": 3,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 2994,
+      "statement": "Apply design thinking process - Build prototype",
+      "type": 2,
+      "bloom_taxonomy_level": 3,
+      "subjects": [5],
+      "template_id": 4,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 2995,
+      "statement": "Apply design thinking process - Test solution",
+      "type": 2,
+      "bloom_taxonomy_level": 3,
+      "subjects": [5],
+      "template_id": 5,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 2996,
+      "statement": "Apply design thinking process - Optimize solution",
+      "type": 2,
+      "bloom_taxonomy_level": 3,
+      "subjects": [5],
+      "template_id": 6,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 2997,
+      "statement": "Apply self-directed learning strategies (Goal setting) in the learning process",
+      "type": 3,
+      "bloom_taxonomy_level": 3,
+      "subjects": [],
+      "template_id": 13,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 2998,
+      "statement": "Apply self-directed learning strategies (Self-planning) in the learning process",
+      "type": 3,
+      "bloom_taxonomy_level": 3,
+      "subjects": [],
+      "template_id": 14,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 2999,
+      "statement": "Apply self-directed learning strategies (Self-monitoring) in the learning process",
+      "type": 3,
+      "bloom_taxonomy_level": 3,
+      "subjects": [],
+      "template_id": 15,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 3000,
+      "statement": "Apply self-directed learning strategies (Self-evaluation) in the learning process",
+      "type": 3,
+      "bloom_taxonomy_level": 3,
+      "subjects": [],
+      "template_id": 16,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    },
+    {
+      "id": 3001,
+      "statement": "Apply self-directed learning strategies (Revision) in the learning process",
+      "type": 3,
+      "bloom_taxonomy_level": 3,
+      "subjects": [],
+      "template_id": 17,
+      "sub_intended_learning_outcomes": [],
+      "sequence": null
+    }
+  ],
+  "disciplinary_practices": [
+    {
+      "id": 886,
+      "name": "Engineering Design yo",
+      "description": "Supporting our young learners to use their knowledge and skills to figure out effective solutions to a given problem, just like engineers. The solution may involve the invention of a new product/ technology or improvements in existing ones.",
+      "learner_roles": "Engineer, Inventor",
+      "steps": [
+        {
+          "id": 2591,
+          "name": "Identify problem",
+          "sequence": 1
+        },
+        {
+          "id": 2592,
+          "name": "Ideate solution",
+          "sequence": 2
+        },
+        {
+          "id": 2593,
+          "name": "Design solution",
+          "sequence": 3
+        },
+        {
+          "id": 2594,
+          "name": "Test performance and optimize the product",
+          "sequence": 4
+        },
+        {
+          "id": 2595,
+          "name": "Construct prototype",
+          "sequence": 6
+        }
+      ],
+      "template_id": 1,
+      "sequence": 1
+    }
+  ],
+  "pedagogical_approaches": [
+    {
+      "id": 689,
+      "name": "Self-Directed Learning",
+      "description": "Self-Directed Learning (SDL) is a popular educational method that encourages learning around real-world problems and empowers students. It uses a five-step structure, akin to problem-solving, comprising goal setting,self planning, self-monitoring, self-evaluation, and revision.",
+      "foci": [
+        {
+          "id": 1901,
+          "name": "Goal-setting",
+          "sequence": 1
+        },
+        {
+          "id": 1902,
+          "name": "Self-planning",
+          "sequence": 2
+        },
+        {
+          "id": 1903,
+          "name": "Self-monitoring",
+          "sequence": 3
+        },
+        {
+          "id": 1904,
+          "name": "Self-evaluation",
+          "sequence": 4
+        },
+        {
+          "id": 1905,
+          "name": "Revision",
+          "sequence": 5
+        }
+      ],
+      "template_id": 1,
+      "sequence": 1
+    }
+  ],
+  "curriculum_components": [
+    {
+      "id": 1773,
+      "name": "Through brainstorming to identify problem for goal-setting",
+      "intended_learning_outcomes": [
+        {
+          "id": 2991,
+          "statement": "Apply design thinking process - Empathize with users",
+          "type": 2,
+          "bloom_taxonomy_level": 3,
+          "subjects": [5],
+          "template_id": 1,
+          "sub_intended_learning_outcomes": [
+            {
+              "id": 2061,
+              "statement": "A sub ilo for testing",
+              "bloom_taxonomy_level": 1,
+              "sequence": 1
+            }
+          ],
+          "sequence": 1
+        },
+        {
+          "id": 2992,
+          "statement": "Apply design thinking process - Define design problems",
+          "type": 2,
+          "bloom_taxonomy_level": 3,
+          "subjects": [5],
+          "template_id": 2,
+          "sub_intended_learning_outcomes": [],
+          "sequence": 2
+        },
+        {
+          "id": 2997,
+          "statement": "Apply self-directed learning strategies (Goal setting) in the learning process",
+          "type": 3,
+          "bloom_taxonomy_level": 3,
+          "subjects": [],
+          "template_id": 13,
+          "sub_intended_learning_outcomes": [],
+          "sequence": 3
+        }
+      ],
+      "disciplinary_practice_steps": [
+        {
+          "id": 2591,
+          "name": "Identify problem",
+          "sequence": 1
+        }
+      ],
+      "pedagogical_approach_foci": [
+        {
+          "id": 1901,
+          "name": "Goal-setting",
+          "sequence": 1
+        }
+      ],
+      "learning_tasks": [
+        {
+          "id": 4590,
+          "name": "Students discuss the needs of users",
+          "description": "What is the need?",
+          "type": 2,
+          "delivery_mode": 2,
+          "stages": 2,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": true,
+          "duration": 15,
+          "feedbacks": [1, 2],
+          "outcomes": [
+            {
+              "id": 2991,
+              "statement": "Apply design thinking process - Empathize with users",
+              "type": 2,
+              "bloom_taxonomy_level": 3,
+              "subjects": [5],
+              "template_id": 1,
+              "sub_intended_learning_outcomes": [
+                {
+                  "id": 2061,
+                  "statement": "A sub ilo for testing",
+                  "bloom_taxonomy_level": 1,
+                  "sequence": 1
+                }
+              ],
+              "sequence": null
+            },
+            {
+              "id": 2997,
+              "statement": "Apply self-directed learning strategies (Goal setting) in the learning process",
+              "type": 3,
+              "bloom_taxonomy_level": 3,
+              "subjects": [],
+              "template_id": 13,
+              "sub_intended_learning_outcomes": [],
+              "sequence": null
+            }
+          ],
+          "elearning_tools": [
+            {
+              "id": 1934,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": "This is a padlet",
+              "url": "https://padlet.com",
+              "file": null
+            },
+            {
+              "id": 1955,
+              "tool_type": 3,
+              "type_other": null,
+              "name": "Learning Material",
+              "description": "This is the file",
+              "url": null,
+              "file": {
+                "id": 464,
+                "name": "image.png",
+                "file_path": "task_elearning_tools/1955",
+                "ref_id": 1955,
+                "ref_type": "task_elearning_tools",
+                "extension": "png",
+                "sequence": null
+              }
+            }
+          ],
+          "resources": [
+            {
+              "id": 1137,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": "worksheet",
+              "url": null,
+              "file": {
+                "id": 465,
+                "name": "test excel.xlsx",
+                "file_path": "task_resources/1137",
+                "ref_id": 1137,
+                "ref_type": "task_resources",
+                "extension": "xlsx",
+                "sequence": null
+              }
+            },
+            {
+              "id": 1148,
+              "resource_type": 8,
+              "type_other": null,
+              "name": "A website",
+              "description": "this gives a website",
+              "url": "https://www.hku.hk",
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [
+            {
+              "id": 10,
+              "question_text": "What concepts have students discussed and developed in the forum?",
+              "instruction": "To help you assess the depth of student understanding, the system analyzes forum posts for complexity, reasoning ability, and conceptual connections.",
+              "context": 3,
+              "allow_end_of_course_evaluation": false,
+              "category": 1
+            },
+            {
+              "id": 11,
+              "question_text": "How have students' online learning interactions been at a particular learning stage with Forum?",
+              "instruction": "To help you understand students’ online learning interactions at a particular stage, the system analyzes patterns of participation and communication in the Forum, revealing how students connect, collaborate, and engage with one another during that period.",
+              "context": 3,
+              "allow_end_of_course_evaluation": false,
+              "category": 4
+            }
+          ],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4591,
+          "name": "Students work on indentifying the most prominent problem needed to be addressed.",
+          "description": null,
+          "type": 3,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": true,
+          "duration": 5,
+          "feedbacks": [1],
+          "outcomes": [
+            {
+              "id": 2992,
+              "statement": "Apply design thinking process - Define design problems",
+              "type": 2,
+              "bloom_taxonomy_level": 3,
+              "subjects": [5],
+              "template_id": 2,
+              "sub_intended_learning_outcomes": [],
+              "sequence": null
+            },
+            {
+              "id": 2997,
+              "statement": "Apply self-directed learning strategies (Goal setting) in the learning process",
+              "type": 3,
+              "bloom_taxonomy_level": 3,
+              "subjects": [],
+              "template_id": 13,
+              "sub_intended_learning_outcomes": [],
+              "sequence": null
+            }
+          ],
+          "elearning_tools": [
+            {
+              "id": 1935,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1936,
+              "tool_type": 10,
+              "type_other": null,
+              "name": "Wiki",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1937,
+              "tool_type": 8,
+              "type_other": null,
+              "name": "URL",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1138,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        },
+        {
+          "id": 4592,
+          "name": "Students present their findings on user needs to the whole class",
+          "description": null,
+          "type": 10,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 5,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1938,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1939,
+              "tool_type": 10,
+              "type_other": null,
+              "name": "Wiki",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1940,
+              "tool_type": 10,
+              "type_other": null,
+              "name": "Wiki",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1941,
+              "tool_type": 8,
+              "type_other": null,
+              "name": "URL",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 3
+        },
+        {
+          "id": 6108,
+          "name": "A Task with a questionnaire",
+          "description": null,
+          "type": 7,
+          "delivery_mode": 2,
+          "stages": 2,
+          "social_organization": 2,
+          "group_size": 4,
+          "assessment": false,
+          "duration": 20,
+          "feedbacks": [2],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 3575,
+              "tool_type": 5,
+              "type_other": null,
+              "name": "a questionnaire",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [
+            {
+              "id": 4,
+              "question_text": "How do students perceive their own learning by the end of the course?",
+              "instruction": "To help you understand how students perceive their overall learning by the end of the course and encourage meta-cognitive reflection, you can set up a survey to guide them in evaluating their own progress, challenges, and achievements, thereby increasing their awareness of learning strategies and outcomes.",
+              "context": 1,
+              "allow_end_of_course_evaluation": true,
+              "category": 2
+            }
+          ],
+          "template_id": null,
+          "sequence": 4
+        }
+      ],
+      "learning_analytic_questions": [
+        {
+          "id": 10,
+          "question_text": "What concepts have students discussed and developed in the forum?",
+          "instruction": "To help you assess the depth of student understanding, the system analyzes forum posts for complexity, reasoning ability, and conceptual connections.",
+          "context": 3,
+          "allow_end_of_course_evaluation": false,
+          "category": 1
+        },
+        {
+          "id": 11,
+          "question_text": "How have students' online learning interactions been at a particular learning stage with Forum?",
+          "instruction": "To help you understand students’ online learning interactions at a particular stage, the system analyzes patterns of participation and communication in the Forum, revealing how students connect, collaborate, and engage with one another during that period.",
+          "context": 3,
+          "allow_end_of_course_evaluation": false,
+          "category": 4
+        }
+      ],
+      "template_id": 26,
+      "sequence": null
+    },
+    {
+      "id": 1774,
+      "name": "Through discussing essential design elements to ideate solution for self-planning",
+      "intended_learning_outcomes": [
+        {
+          "id": 2993,
+          "statement": "Apply design thinking process - Ideate innovative solutions",
+          "type": 2,
+          "bloom_taxonomy_level": 3,
+          "subjects": [5],
+          "template_id": 3,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        },
+        {
+          "id": 2998,
+          "statement": "Apply self-directed learning strategies (Self-planning) in the learning process",
+          "type": 3,
+          "bloom_taxonomy_level": 3,
+          "subjects": [],
+          "template_id": 14,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        }
+      ],
+      "disciplinary_practice_steps": [
+        {
+          "id": 2592,
+          "name": "Ideate solution",
+          "sequence": 2
+        }
+      ],
+      "pedagogical_approach_foci": [
+        {
+          "id": 1902,
+          "name": "Self-planning",
+          "sequence": 2
+        }
+      ],
+      "learning_tasks": [
+        {
+          "id": 4593,
+          "name": "Practice a range of technology/tools, and/or receive information to understand constraints and possibilities",
+          "description": null,
+          "type": 8,
+          "delivery_mode": 2,
+          "stages": 2,
+          "social_organization": 2,
+          "group_size": 6,
+          "assessment": false,
+          "duration": 60,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1942,
+              "tool_type": 8,
+              "type_other": null,
+              "name": "URL",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4594,
+          "name": "Discuss in groups to identify essential design elements",
+          "description": null,
+          "type": 2,
+          "delivery_mode": 2,
+          "stages": 2,
+          "social_organization": 2,
+          "group_size": 6,
+          "assessment": false,
+          "duration": 15,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1943,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1139,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        },
+        {
+          "id": 4595,
+          "name": "Construct a visible artefact to represent design plans",
+          "description": null,
+          "type": 3,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 2,
+          "group_size": 6,
+          "assessment": false,
+          "duration": 30,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 3
+        },
+        {
+          "id": 4596,
+          "name": "Reflect on feedback through peer review process",
+          "description": null,
+          "type": 2,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 15,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [
+            {
+              "id": 1140,
+              "resource_type": 3,
+              "type_other": null,
+              "name": "Assessment tool (e.g. rubrics, checklist)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 4
+        },
+        {
+          "id": 4597,
+          "name": "Refine the plan",
+          "description": null,
+          "type": 7,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 2,
+          "group_size": 6,
+          "assessment": false,
+          "duration": 10,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1944,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 5
+        }
+      ],
+      "learning_analytic_questions": [],
+      "template_id": 27,
+      "sequence": null
+    },
+    {
+      "id": 1775,
+      "name": "Through collecting feedback to design solution for self-planning",
+      "intended_learning_outcomes": [
+        {
+          "id": 2993,
+          "statement": "Apply design thinking process - Ideate innovative solutions",
+          "type": 2,
+          "bloom_taxonomy_level": 3,
+          "subjects": [5],
+          "template_id": 3,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        },
+        {
+          "id": 2998,
+          "statement": "Apply self-directed learning strategies (Self-planning) in the learning process",
+          "type": 3,
+          "bloom_taxonomy_level": 3,
+          "subjects": [],
+          "template_id": 14,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        }
+      ],
+      "disciplinary_practice_steps": [
+        {
+          "id": 2593,
+          "name": "Design solution",
+          "sequence": 3
+        }
+      ],
+      "pedagogical_approach_foci": [
+        {
+          "id": 1902,
+          "name": "Self-planning",
+          "sequence": 2
+        }
+      ],
+      "learning_tasks": [
+        {
+          "id": 4598,
+          "name": "Students work out a plan/draw sketch design",
+          "description": null,
+          "type": 3,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 15,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1945,
+              "tool_type": 10,
+              "type_other": null,
+              "name": "Wiki",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1946,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1947,
+              "tool_type": 13,
+              "type_other": null,
+              "name": "Lesson",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1141,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4599,
+          "name": "Students receive feedback and comments from teachers and other students",
+          "description": null,
+          "type": 6,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 5,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1948,
+              "tool_type": 12,
+              "type_other": null,
+              "name": "Choice",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1142,
+              "resource_type": 3,
+              "type_other": null,
+              "name": "Assessment tool (e.g. rubrics, checklist)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        },
+        {
+          "id": 4600,
+          "name": "Students revise the design problem based on the feedback received.",
+          "description": null,
+          "type": 7,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 10,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [
+            {
+              "id": 1143,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 3
+        }
+      ],
+      "learning_analytic_questions": [],
+      "template_id": 28,
+      "sequence": null
+    },
+    {
+      "id": 1776,
+      "name": "Through creating criteria and material lists to construct prototype for self-monitoring",
+      "intended_learning_outcomes": [
+        {
+          "id": 2994,
+          "statement": "Apply design thinking process - Build prototype",
+          "type": 2,
+          "bloom_taxonomy_level": 3,
+          "subjects": [5],
+          "template_id": 4,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        },
+        {
+          "id": 2999,
+          "statement": "Apply self-directed learning strategies (Self-monitoring) in the learning process",
+          "type": 3,
+          "bloom_taxonomy_level": 3,
+          "subjects": [],
+          "template_id": 15,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        }
+      ],
+      "disciplinary_practice_steps": [
+        {
+          "id": 2595,
+          "name": "Construct prototype",
+          "sequence": 6
+        }
+      ],
+      "pedagogical_approach_foci": [
+        {
+          "id": 1903,
+          "name": "Self-monitoring",
+          "sequence": 3
+        }
+      ],
+      "learning_tasks": [
+        {
+          "id": 4601,
+          "name": "Group discussion to identify the factors to be evaluate the prototype that fulfills users' need",
+          "description": null,
+          "type": 2,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 10,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [
+            {
+              "id": 1144,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4602,
+          "name": "Students list criteria/rubric used to evaluate the effectiveness of the prototype",
+          "description": null,
+          "type": 3,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 10,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1949,
+              "tool_type": 12,
+              "type_other": null,
+              "name": "Choice",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1145,
+              "resource_type": 6,
+              "type_other": null,
+              "name": "Reading material",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        },
+        {
+          "id": 4603,
+          "name": "Students explores the materials",
+          "description": null,
+          "type": 8,
+          "delivery_mode": 3,
+          "stages": 3,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 60,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 3
+        },
+        {
+          "id": 4604,
+          "name": "Students produce an early, inexpensive, and scaled down version of the product",
+          "description": null,
+          "type": 12,
+          "delivery_mode": 3,
+          "stages": 3,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 60,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 4
+        }
+      ],
+      "learning_analytic_questions": [],
+      "template_id": 29,
+      "sequence": null
+    },
+    {
+      "id": 1777,
+      "name": "Through competition based on the rubrics to test performance of the product for self-evaluation",
+      "intended_learning_outcomes": [
+        {
+          "id": 2995,
+          "statement": "Apply design thinking process - Test solution",
+          "type": 2,
+          "bloom_taxonomy_level": 3,
+          "subjects": [5],
+          "template_id": 5,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        },
+        {
+          "id": 3000,
+          "statement": "Apply self-directed learning strategies (Self-evaluation) in the learning process",
+          "type": 3,
+          "bloom_taxonomy_level": 3,
+          "subjects": [],
+          "template_id": 16,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        }
+      ],
+      "disciplinary_practice_steps": [],
+      "pedagogical_approach_foci": [
+        {
+          "id": 1904,
+          "name": "Self-evaluation",
+          "sequence": 4
+        }
+      ],
+      "learning_tasks": [
+        {
+          "id": 4605,
+          "name": "Students receive teachers' instruction on the success criteria of the competition",
+          "description": null,
+          "type": 1,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 5,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4606,
+          "name": "Students present their product in the competition",
+          "description": null,
+          "type": 8,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 30,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        },
+        {
+          "id": 4607,
+          "name": "Students self/peer evaluate the performance of their products based on the rubrics.",
+          "description": null,
+          "type": 6,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 1,
+          "group_size": null,
+          "assessment": false,
+          "duration": 10,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1950,
+              "tool_type": 7,
+              "type_other": null,
+              "name": "Workshop",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1146,
+              "resource_type": 3,
+              "type_other": null,
+              "name": "Assessment tool (e.g. rubrics, checklist)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 3
+        }
+      ],
+      "learning_analytic_questions": [],
+      "template_id": 30,
+      "sequence": null
+    },
+    {
+      "id": 1778,
+      "name": "Through analyzing feedback to optimize the product for revision",
+      "intended_learning_outcomes": [
+        {
+          "id": 2996,
+          "statement": "Apply design thinking process - Optimize solution",
+          "type": 2,
+          "bloom_taxonomy_level": 3,
+          "subjects": [5],
+          "template_id": 6,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        },
+        {
+          "id": 3001,
+          "statement": "Apply self-directed learning strategies (Revision) in the learning process",
+          "type": 3,
+          "bloom_taxonomy_level": 3,
+          "subjects": [],
+          "template_id": 17,
+          "sub_intended_learning_outcomes": [],
+          "sequence": null
+        }
+      ],
+      "disciplinary_practice_steps": [
+        {
+          "id": 2594,
+          "name": "Test performance and optimize the product",
+          "sequence": 4
+        }
+      ],
+      "pedagogical_approach_foci": [
+        {
+          "id": 1905,
+          "name": "Revision",
+          "sequence": 5
+        }
+      ],
+      "learning_tasks": [
+        {
+          "id": 4608,
+          "name": "Students analyze the feedback from users/teachers and search methods to optimise the product",
+          "description": null,
+          "type": 5,
+          "delivery_mode": 6,
+          "stages": 1,
+          "social_organization": 3,
+          "group_size": 1,
+          "assessment": false,
+          "duration": 30,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1951,
+              "tool_type": 8,
+              "type_other": null,
+              "name": "URL",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1952,
+              "tool_type": 11,
+              "type_other": null,
+              "name": "Chat",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4609,
+          "name": "Students work out a plan/draw sketch design to refine their production",
+          "description": null,
+          "type": 3,
+          "delivery_mode": 2,
+          "stages": null,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 15,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1953,
+              "tool_type": 10,
+              "type_other": null,
+              "name": "Wiki",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1954,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1147,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        },
+        {
+          "id": 4610,
+          "name": "Students work on the product optimization",
+          "description": null,
+          "type": 7,
+          "delivery_mode": 6,
+          "stages": 1,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 30,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 3
+        }
+      ],
+      "learning_analytic_questions": [],
+      "template_id": 31,
+      "sequence": null
+    }
+  ],
+  "learning_analytic_questions": [
+    {
+      "id": 1,
+      "question_text": "What is the course completion status of each student?",
+      "instruction": "To help you track each student's course completion status, you need to set completion conditions for every learning activity in iLAP. For example, you could require students to achieve a passing grade on a quiz.",
+      "context": 1,
+      "allow_end_of_course_evaluation": false,
+      "category": 3
+    },
+    {
+      "id": 2,
+      "question_text": "To what extent have students participated in different tools of the iLAP course during school hours and after school?",
+      "instruction": "To help you understand how actively students are learning during and after class, you can inform the Learning Analytics Facilitator of the in-class time period (e.g., 08:00 to 16:00 on weekdays).",
+      "context": 1,
+      "allow_end_of_course_evaluation": false,
+      "category": 3
+    },
+    {
+      "id": 3,
+      "question_text": "How do students perform in the course?",
+      "instruction": "To help you monitor student performance, some iLAP tools support grading features, such as Quiz, Forum, Workshop, H5P, and Assignment. You can use these tools for assessment and grading purposes.",
+      "context": 1,
+      "allow_end_of_course_evaluation": false,
+      "category": 1
+    },
+    {
+      "id": 4,
+      "question_text": "How do students perceive their own learning by the end of the course?",
+      "instruction": "To help you understand how students perceive their overall learning by the end of the course and encourage meta-cognitive reflection, you can set up a survey to guide them in evaluating their own progress, challenges, and achievements, thereby increasing their awareness of learning strategies and outcomes.",
+      "context": 1,
+      "allow_end_of_course_evaluation": true,
+      "category": 2
+    },
+    {
+      "id": 5,
+      "question_text": "To what extent has each student participated in a specific task?",
+      "instruction": "To help you understand how each student participated in a specific task, the system will provide the number of views and participation time for each activity to instructors for further analysis.",
+      "context": 2,
+      "allow_end_of_course_evaluation": false,
+      "category": 3
+    },
+    {
+      "id": 6,
+      "question_text": "To what extent have students participated in the forum?",
+      "instruction": "To help you analyze when students are most active in forums and measure their time management efficiency in forum participation, the system provides data on forum activity by hour.\n",
+      "context": 2,
+      "allow_end_of_course_evaluation": false,
+      "category": 3
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1186,
+      "name": "Through brainstorming to identify problem for goal-setting",
+      "tasks": [
+        {
+          "id": 4590,
+          "name": "Students discuss the needs of users",
+          "description": "What is the need?",
+          "type": 2,
+          "delivery_mode": 2,
+          "stages": 2,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": true,
+          "duration": 15,
+          "feedbacks": [1, 2],
+          "outcomes": [
+            {
+              "id": 2991,
+              "statement": "Apply design thinking process - Empathize with users",
+              "type": 2,
+              "bloom_taxonomy_level": 3,
+              "subjects": [5],
+              "template_id": 1,
+              "sub_intended_learning_outcomes": [
+                {
+                  "id": 2061,
+                  "statement": "A sub ilo for testing",
+                  "bloom_taxonomy_level": 1,
+                  "sequence": 1
+                }
+              ],
+              "sequence": null
+            },
+            {
+              "id": 2997,
+              "statement": "Apply self-directed learning strategies (Goal setting) in the learning process",
+              "type": 3,
+              "bloom_taxonomy_level": 3,
+              "subjects": [],
+              "template_id": 13,
+              "sub_intended_learning_outcomes": [],
+              "sequence": null
+            }
+          ],
+          "elearning_tools": [
+            {
+              "id": 1934,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": "This is a padlet",
+              "url": "https://padlet.com",
+              "file": null
+            },
+            {
+              "id": 1955,
+              "tool_type": 3,
+              "type_other": null,
+              "name": "Learning Material",
+              "description": "This is the file",
+              "url": null,
+              "file": {
+                "id": 464,
+                "name": "image.png",
+                "file_path": "task_elearning_tools/1955",
+                "ref_id": 1955,
+                "ref_type": "task_elearning_tools",
+                "extension": "png",
+                "sequence": null
+              }
+            }
+          ],
+          "resources": [
+            {
+              "id": 1137,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": "worksheet",
+              "url": null,
+              "file": {
+                "id": 465,
+                "name": "test excel.xlsx",
+                "file_path": "task_resources/1137",
+                "ref_id": 1137,
+                "ref_type": "task_resources",
+                "extension": "xlsx",
+                "sequence": null
+              }
+            },
+            {
+              "id": 1148,
+              "resource_type": 8,
+              "type_other": null,
+              "name": "A website",
+              "description": "this gives a website",
+              "url": "https://www.hku.hk",
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [
+            {
+              "id": 10,
+              "question_text": "What concepts have students discussed and developed in the forum?",
+              "instruction": "To help you assess the depth of student understanding, the system analyzes forum posts for complexity, reasoning ability, and conceptual connections.",
+              "context": 3,
+              "allow_end_of_course_evaluation": false,
+              "category": 1
+            },
+            {
+              "id": 11,
+              "question_text": "How have students' online learning interactions been at a particular learning stage with Forum?",
+              "instruction": "To help you understand students’ online learning interactions at a particular stage, the system analyzes patterns of participation and communication in the Forum, revealing how students connect, collaborate, and engage with one another during that period.",
+              "context": 3,
+              "allow_end_of_course_evaluation": false,
+              "category": 4
+            }
+          ],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        }
+      ],
+      "sequence": 1
+    },
+    {
+      "id": 1187,
+      "name": "Through discussing essential design elements to ideate solution for self-planning",
+      "tasks": [
+        {
+          "id": 4593,
+          "name": "Practice a range of technology/tools, and/or receive information to understand constraints and possibilities",
+          "description": null,
+          "type": 8,
+          "delivery_mode": 2,
+          "stages": 2,
+          "social_organization": 2,
+          "group_size": 6,
+          "assessment": false,
+          "duration": 60,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1942,
+              "tool_type": 8,
+              "type_other": null,
+              "name": "URL",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4594,
+          "name": "Discuss in groups to identify essential design elements",
+          "description": null,
+          "type": 2,
+          "delivery_mode": 2,
+          "stages": 2,
+          "social_organization": 2,
+          "group_size": 6,
+          "assessment": false,
+          "duration": 15,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1943,
+              "tool_type": 2,
+              "type_other": null,
+              "name": "Forum",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [
+            {
+              "id": 1139,
+              "resource_type": 2,
+              "type_other": null,
+              "name": "Practice execise (e.g. worksheet, workbook)",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        }
+      ],
+      "sequence": 2
+    },
+    {
+      "id": 1188,
+      "name": "Through creating criteria and material lists to construct prototype for self-monitoring",
+      "tasks": [
+        {
+          "id": 4603,
+          "name": "Students explores the materials",
+          "description": null,
+          "type": 8,
+          "delivery_mode": 3,
+          "stages": 3,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 60,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4604,
+          "name": "Students produce an early, inexpensive, and scaled down version of the product",
+          "description": null,
+          "type": 12,
+          "delivery_mode": 3,
+          "stages": 3,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 60,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        }
+      ],
+      "sequence": 3
+    },
+    {
+      "id": 1192,
+      "name": "Through analyzing feedback to optimize the product for revision",
+      "tasks": [
+        {
+          "id": 4608,
+          "name": "Students analyze the feedback from users/teachers and search methods to optimise the product",
+          "description": null,
+          "type": 5,
+          "delivery_mode": 6,
+          "stages": 1,
+          "social_organization": 3,
+          "group_size": 1,
+          "assessment": false,
+          "duration": 30,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [
+            {
+              "id": 1951,
+              "tool_type": 8,
+              "type_other": null,
+              "name": "URL",
+              "description": null,
+              "url": null,
+              "file": null
+            },
+            {
+              "id": 1952,
+              "tool_type": 11,
+              "type_other": null,
+              "name": "Chat",
+              "description": null,
+              "url": null,
+              "file": null
+            }
+          ],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 1
+        },
+        {
+          "id": 4610,
+          "name": "Students work on the product optimization",
+          "description": null,
+          "type": 7,
+          "delivery_mode": 6,
+          "stages": 1,
+          "social_organization": 2,
+          "group_size": 5,
+          "assessment": false,
+          "duration": 30,
+          "feedbacks": [],
+          "outcomes": [],
+          "elearning_tools": [],
+          "resources": [],
+          "learning_analytic_questions": [],
+          "laqs_where_end_of_course_evaluation": [],
+          "template_id": null,
+          "sequence": 2
+        }
+      ],
+      "sequence": 4
+    }
+  ]
+}

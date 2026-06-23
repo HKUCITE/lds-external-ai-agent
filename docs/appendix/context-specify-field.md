@@ -6,6 +6,7 @@ sidebar_position: 1
 
 | Context    | Mandatory Fields    | Optional Fields                                                                                                                                                   | Example JSON file                           |
 | ---------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Course     | topic               | id, description, subjects\[\], grade_levels\[\], learning_time, lesson_session_count, per_lesson_session_time                                                     | [Course.json](/example/Course.json)         |
 | CourseInfo | topic               | id, description, subjects\[\], grade_levels\[\], learning_time, lesson_session_count, per_lesson_session_time                                                     | [CourseInfo.json](/example/CourseInfo.json) |
 | ILO        | type\[\], statement | id, bt_level, subjects\[\], sequence                                                                                                                              | [ILO.json](/example/ILO.json)               |
 | DP         | name                | id, description, learner_roles, steps\[\], sequence                                                                                                               | [DP.json](/example/DP.json)                 |
