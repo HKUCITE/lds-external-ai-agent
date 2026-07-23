@@ -48,7 +48,7 @@ Use this type when the AI is recommending specific modifications to existing fie
 
 **Schema for `data`:**
 
-````json
+```json
 {
   "changes": [
     {
@@ -60,8 +60,7 @@ Use this type when the AI is recommending specific modifications to existing fie
   ],
   "rationale": "String (Optional) - A high-level summary explaining the overall suggestion"
 }
-
-Explanation: Displays a multiple-choice question; each option can trigger an immediate action.
+```
 
 Example
 
@@ -124,4 +123,4 @@ Example
     ]
   }
 }
-````
+```
