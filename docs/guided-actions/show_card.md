@@ -19,7 +19,7 @@ Basic JSON Structure
     "subtitle": "String (Optional) - A brief contextual subheading",
     "variant": "String - Visual styling: 'info' | 'success' | 'warning' | 'error' | 'neutral'",
     "content": {
-      "type": "String - The UI component to render (e.g., 'suggest_changes', 'text', 'list')",
+      "type": "String - The UI component to render (e.g., 'suggest_changes')",
       "data": {
         "//": "The structure of 'data' is strictly determined by the 'type' field above."
       }
